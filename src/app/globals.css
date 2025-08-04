@@ -1,0 +1,19 @@
+@import "tailwindcss";
+ 
+ 
+@import "tailwindcss/theme.css" layer(theme);
+ 
+@theme {
+
+  --color-botao: #00FFCE;
+  --color-texto-principal: #005C4A;
+  --color-texto-fundo: #ffffff;
+  --color-primary-300: #0a8dff;
+  --color-primary-400: #0062b8;
+  --color-primary-500: #003665;
+  --color-primary-600: #002c52;
+  --color-primary-700: #00213d;
+  --color-primary-800: #001629;
+  --color-primary-900: #000b14;
+  --color-primary-950: #00050a;
+}

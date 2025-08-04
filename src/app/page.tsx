@@ -1,5 +1,6 @@
 import Image from "next/image";
 import BrandCarousel from "./components/BrandCarousel";
+import Topo from "./components/Topo";
 import Aplicabilidade from "./components/Aplicabilidade";
 import WhatsAppWidget from "./components/WhatsappWidget";
 import EntregaveisTecnicos from "./components/EntregaveisTecnicos";
@@ -12,57 +13,7 @@ import "swiper/css";
 export default function Home() {
   return (
     <div className="w-full">
-      <div className="relative w-full  ">
-        <Image
-          src="/bg-top-planet.webp"
-          alt="Background"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          priority
-          className="z-0"
-        />
-
-        <div className="absolute inset-0  "></div>
-
-        <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 py-10    ">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex justify-center mb-6">
-              <Image
-                src="/logo-planet.svg" // substitua pelo caminho real do logo
-                alt="Planet Topografia"
-                width={120}
-                height={120}
-              />
-            </div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-teal-900">
-              Mapeamento aéreo com <br className="hidden sm:block" /> LiDAR em
-              São Paulo
-            </h1>
-            <p className="mt-4 text-lg md:text-2xl">
-              <span className="bg-gradient-to-b from-[#00b89f] to-[#029f9f] rounded-full px-2 text-texto-fundo">
-                Precisão milimétrica para grandes áreas, vegetação densa e
-                locais de difícil acesso.
-              </span>{" "}
-              Ganhe agilidade e reduza custos com a tecnologia LiDAR + RTK.
-            </p>
-
-            <div className="mt-10">
-              <Image
-                src="/drone-planet-topografia.webp" // substitua pelo caminho real da imagem do drone
-                alt="Drone com LiDAR"
-                width={600}
-                height={200}
-                className="mx-auto w-full max-w-2xl h-auto"
-              />
-            </div>
-
-            <button className=" bg-gradient-to-b from-[#00b89f] to-[#029f9f] text-white px-6 py-3 rounded-full font-semibold hover:bg-green-500 transition duration-300">
-              Solicite agora sua proposta técnica personalizada
-            </button>
-          </div>
-        </div>
-      </div>
+      <Topo />
       <BrandCarousel />
       {/* Segunda Dobra */}
       <div className="relative w-full   px-4 flex flex-col items-center justify-center bg-white overflow-hidden">

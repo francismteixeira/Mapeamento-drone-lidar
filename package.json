@@ -4,13 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-
-
-"build": "next build",
-    "deploy:cf": "npm run build && npx @cloudflare/next-on-pages --build-dir .vercel/output"
-   
-   
-
+    "build": "next build",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.4.5",

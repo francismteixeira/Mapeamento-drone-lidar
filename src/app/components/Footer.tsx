@@ -14,11 +14,7 @@ export default function Footer() {
         />
       </div>
 
-      <p className="max-w-xl mx-auto text-gray-600 px-4 mb-6 text-base">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt et dolore magna aliqua. Quis ipsum suspendisse
-        ultrices gravida.
-      </p>
+      <p className="max-w-xl mx-auto text-gray-600 px-4 mb-6 text-base"></p>
 
       <div className="flex justify-center gap-4 mb-10">
         <IconButton icon={<FaFacebookF />} />

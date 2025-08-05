@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    
     "build": "next build",
-    
     "lint": "next lint"
   },
   "dependencies": {
@@ -17,6 +15,7 @@
     "swiper": "^11.2.10"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.13",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "deploy": "next build && next export"
+   
+    "deploy": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "next": "15.4.5",

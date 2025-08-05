@@ -1,0 +1,6 @@
+name = "Landing-page-drone"
+compatibility_date = "2024-04-10" # Use a data atual ou mais recente
+compatibility_flags = ["nodejs_compat"]
+
+[[pages_build_output_dir]]
+bucket = ".vercel/output/static"

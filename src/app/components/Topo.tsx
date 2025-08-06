@@ -28,7 +28,7 @@ const TopSection: React.FC = () => {
           </div>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-teal-900">
-            9199Mapeamento aéreo com <br className="hidden sm:block" /> LiDAR em
+            199Mapeamento aéreo com <br className="hidden sm:block" /> LiDAR em
             São Paulo
           </h1>
 

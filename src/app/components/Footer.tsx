@@ -26,7 +26,7 @@ export default function Footer() {
         <p>
           Copyright © 2025{" "}
           <span className="font-semibold">Planet Topografia.</span> Todos os
-          direitos reservados
+          direitos reservados novo
         </p>
       </div>
     </footer>

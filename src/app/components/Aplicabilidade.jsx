@@ -18,7 +18,7 @@ const Aplicabilidade = () => {
       text: "Trabalhar com dados precisos para planejamento urbano e ambiental",
     },
     {
-      img: "/img/drone2.webp",
+      img: "/img/atende-exigencias-tecnicas-de-prefeitura-planet-topografia-mapeamento-aereo.webp",
       text: "Atender exigências técnicas de prefeituras, cartórios ou órgãos reguladores",
     },
   ];

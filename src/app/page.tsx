@@ -4,6 +4,7 @@ import Topo from "./components/Topo";
 import Aplicabilidade from "./components/Aplicabilidade";
 import WhatsAppWidget from "./components/WhatsappWidget";
 import EntregaveisTecnicos from "./components/EntregaveisTecnicos";
+import Servicos from "./components/Servicos";
 import Footer from "./components/Footer";
 import ProblemSolutionSection from "./components/ProblemSolutionSection";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -51,6 +52,7 @@ export default function Home() {
       </main>
       <Aplicabilidade />
       <EntregaveisTecnicos />
+      <Servicos />
       <Footer />
     </div>
   );

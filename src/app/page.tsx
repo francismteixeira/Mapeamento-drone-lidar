@@ -2,8 +2,9 @@ import Image from "next/image";
 import BrandCarousel from "./components/BrandCarousel";
 import Topo from "./components/Topo";
 import Aplicabilidade from "./components/Aplicabilidade";
-import WhatsAppWidget from "./components/WhatsappWidget";
+import WhatsappWidget from "./components/WhatsappWidget";
 import EntregaveisTecnicos from "./components/EntregaveisTecnicos";
+import Servicos from "./components/Servicos";
 import Footer from "./components/Footer";
 import ProblemSolutionSection from "./components/ProblemSolutionSection";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -29,7 +30,7 @@ export default function Home() {
         <div className="relative z-10 text-center mb-10">
           <p className="text-gray-700 text-base">Nosso trabalho</p>
           <h2 className="text-2xl sm:text-3xl font-bold text-teal-900">
-            LEVANTAMENTO TOPOGRÁFICO 222ssa333
+            LEVANTAMENTO TOPOGRÁFICO
           </h2>
         </div>
 
@@ -51,7 +52,9 @@ export default function Home() {
       </main>
       <Aplicabilidade />
       <EntregaveisTecnicos />
+      <Servicos />
       <Footer />
+      <WhatsappWidget />
     </div>
   );
 }

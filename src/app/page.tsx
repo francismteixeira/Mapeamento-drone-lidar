@@ -2,7 +2,7 @@ import Image from "next/image";
 import BrandCarousel from "./components/BrandCarousel";
 import Topo from "./components/Topo";
 import Aplicabilidade from "./components/Aplicabilidade";
-import WhatsAppWidget from "./components/WhatsappWidget";
+import WhatsappWidget from "./components/WhatsappWidget";
 import EntregaveisTecnicos from "./components/EntregaveisTecnicos";
 import Servicos from "./components/Servicos";
 import Footer from "./components/Footer";
@@ -54,6 +54,7 @@ export default function Home() {
       <EntregaveisTecnicos />
       <Servicos />
       <Footer />
+      <WhatsappWidget />
     </div>
   );
 }

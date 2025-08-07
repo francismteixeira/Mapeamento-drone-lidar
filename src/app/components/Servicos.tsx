@@ -64,7 +64,7 @@ export default function ProjetosRealizados() {
           <h3 className="max-w-2xl mx-auto text-centertext-2xl md:text-3xl font-medium text-gray-800">
             Quer o <span className="font-bold">melhor serviço</span> com o
             melhor preço por hectare em{" "}
-            <span className="font-bold">São Paulo? </span>
+            <span className="font-bold">São Paulo?</span>
           </h3>
           <p className="mt-5 text-gray-600">
             Aqui você conta com qualidade técnica de alto nível

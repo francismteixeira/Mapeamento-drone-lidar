@@ -9,11 +9,13 @@ import Footer from "./components/Footer";
 import ProblemSolutionSection from "./components/ProblemSolutionSection";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import GoogleTag from "./components/GoogleTag";
 import "swiper/css";
 
 export default function Home() {
   return (
     <div className="w-full">
+      <GoogleTag />
       <Topo />
       <BrandCarousel />
       {/* Segunda Dobra */}

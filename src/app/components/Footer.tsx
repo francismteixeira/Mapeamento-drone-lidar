@@ -4,10 +4,10 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaTimes } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-center py-10">
+    <footer className="  text-center top-4 inset-0">
       <div className="flex justify-center mb-6">
         <Image
-          src="/logo-planet.svg" // substitua pelo caminho real do logo
+          src="/logo-planet.svg"
           alt="Planet Topografia"
           width={120}
           height={120}
@@ -22,7 +22,7 @@ export default function Footer() {
         <IconButton icon={<FaYoutube />} />
       </div>
 
-      <div className="bg-[#2E4C73] text-white text-sm py-4">
+      <div className="bg-texto-principal text-white text-sm py-4">
         <p>
           Copyright © 2025{" "}
           <span className="font-semibold">Planet Topografia.</span> Todos os

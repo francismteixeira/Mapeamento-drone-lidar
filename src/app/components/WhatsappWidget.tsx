@@ -1,46 +1,31 @@
 import React from "react";
-import { SiWhatsapp } from "react-icons/si";
+import { FaWhatsapp } from "react-icons/fa";
 
-const WhatsAppWidget = () => {
+const WhatsAppFloatingButton = () => {
+  const phoneNumber = "5511943076945"; // Altere para o número desejado com DDI/DD
+  const message =
+    "Olá! Gostaria de mais informações sobre o Mapeamento aéreo com LiDAR.";
+
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
+
   return (
-    <>
-      <a
-        className="whapp fixed bottom-8 right-8 z-50"
-        href="http://wa.me/5545991015678/?text=Olá! Vim pelo site e gostaria de tirar uma dúvida."
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Enviar mesagem para o WhatsApp"
-      >
-        <div className="whapp-btn bg-primary-500 flex h-16 w-16 items-center justify-center rounded-full shadow-lg transition duration-100 hover:brightness-150">
-          <SiWhatsapp size={"2rem"} color="white" />
-        </div>
-      </a>
+    <a
+      href={whatsappLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="fixed bottom-6 right-6 z-50"
+    >
+      {/* Pulse Effect */}
+      <span className="absolute animate-ping inline-flex h-16 w-16 rounded-full bg-green-500 opacity-75"></span>
 
-      <style>
-        {`
-          @keyframes pulse-wpp {
-            0% {
-              box-shadow: 0 0 0 0 rgba(0, 54, 102, 0.7);
-            }
-            70% {
-              box-shadow: 
-                0 0 0 10px rgba(0, 54, 102, 0),
-                0 0 0 10px rgba(0, 54, 102, 0.4),
-                0 0 0 10px rgba(0, 54, 102, 0.2),
-                0 0 0 10px rgba(0, 54, 102, 0);
-            }
-            100% {
-              box-shadow: 0 0 0 0 rgba(0, 54, 102, 0);
-            }
-          }
-
-          .whapp-btn {
-            animation: pulse-wpp 2s infinite;
-          }
-        `}
-      </style>
-    </>
+      {/* WhatsApp Button */}
+      <div className="relative flex items-center justify-center w-16 h-16 bg-green-500 rounded-full shadow-lg hover:scale-110 transition-transform duration-300">
+        <FaWhatsapp className="text-white text-3xl" />
+      </div>
+    </a>
   );
 };
 
-export default WhatsAppWidget;
+export default WhatsAppFloatingButton;
